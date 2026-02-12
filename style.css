@@ -1,0 +1,27 @@
+body {
+    margin:40px auto;
+    max-width:650px;
+    line-height:1.6;
+    font-size:18px;
+    color:#444;
+    background-color:#F0ECEB;
+    padding:0 10px
+}
+
+h1,h2,h3{line-height:1.2}
+
+.title{text-align: center;}
+
+ul.no-bullets {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.profile-img {
+    border-radius: 25%;
+    object-fit: cover;
+    width: 250px;
+    display: block;
+    margin: 0 auto;
+}
