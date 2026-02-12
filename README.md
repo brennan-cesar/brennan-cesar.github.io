@@ -1,2 +1,2 @@
-# brennan-cesar-github.io
+# brennan-cesar.github.io
 Personal website
