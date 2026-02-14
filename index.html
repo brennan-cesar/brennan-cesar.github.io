@@ -4,31 +4,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Brennan Cesar">
     <meta name="description" content="Brennan Cesar's website! Full of great stuff hopefully">
-    <meta name="keywords" content="Electrical Engineer, Robotics, Northeastern University">
+    <meta name="keywords" content="Electrical Engineer, Robotics, Northeastern University, Electric Racing, FSAE, Consulting, PCB">
     <title>Home</title>
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="theme.js"></script>
+    <script>theme();</script>
 </head>
 <body>
-    <img class="profile-img" src="/assets/image.jpg" alt="A picture of me!">
+    <img class="profile-img" src="assets/image.jpg" alt="A picture of me!">
     <header>
-        <h1 class="title">Hi, I'm Brennan. <i>Welcome!</i></h1>
+        <h1 class="title">Hi, I'm <i>Brennan Cesar.</i></h1>
     </header>
-    <p>
-        Thanks for checking out my page. I'm Brennan Cesar, a third-year at Northeastern University currently studying Electrical Engineering with a minor in Robotics.
+    <p style="margin-bottom: 0.5ch;">
+        Welcome, and thanks for checking out my page! I'm a third-year at Northeastern University, currently studying Electrical Engineering with a minor in Robotics.
     </p>
-    <h3>What do I do?</h3>
-    <p>Stuff! Check it all out on my projects page <a href="projects.html">here</a>.</p>
-    <p>But really, I keep myself busy. I recently completed an Electrical Engineering Co-op at Boston Engineering, where I designed PCBs, assembled complex robots, and completed lots of research. As much as I would love to talk about it, all the cool stuff is under CUI. womp womp.</p>
-    <p>I was the Head of Electronics for Northeastern Electric Racing, where I focused on designing and assembling low-voltage circuit boards. Check out the website <a href="https://electricracing.northeastern.edu/" target="_blank">here</a>. Luckily I can talk all about the design work, which you can check out in the projects page linked above.</p>
-    <p>I also participated in AerospaceNU's Intro Propulsion team, designing and manufacturing hybrid propulsion engines. I gained a lot of respect for rocket scientists, and it was great to have a successful launch.</p>
-    <p>Before all that, I was the captain of our FRC robotics team in high school, taking us to the world championship for the first time. Go 2713! I've had my fair share of personal projects throughout the years, some big and some small, but all interesting and helped me learn nonetheless.</p>
-    <h3>Links!</h3>
-    <p>Attached below is a .pdf of my resume, plus links to where you can find me (including the page you're on now!). Feel free to contact me at 
+    <input type="checkbox" id="toggle-theme" hidden>
+    <label for="toggle-theme" style="display: flex; justify-content: center; align-items: center;">CLICK TO TOGGLE THEME</label>
+    <h3 style="margin-top: 0.5ch;">PROJECTS</h3>
+    <hr>
+    <h3 style="text-align: center;"><a href="projects.html">HERE</a></h3>
+    <h3>EXPERIENCE</h3>
+    <hr>
+    <ul class="no-bullets">
+        <li>
+            <sup>07.25-12.25</sup>
+            <b>ELECTRICAL ENGINEERING CO-OP</b> - Boston Engineering
+            <p class="exp-gap">PCB design & assembly, cable harnessing, power budget analysis, energy harvesting research.</p>
+        </li>
+        <li>
+            <sup>12.24-07.25</sup>
+            <b>HEAD OF ELECTRONICS</b> - Northeastern Electric Racing
+            <p class="exp-gap">Led 20+ member team, documented PCB design, managed safety forms. Website <a href="https://electricracing.northeastern.edu/" target="_blank">HERE</a>.</p>
+        </li>
+        <li>
+            <sup>09.24-12.24</sup>
+            <b>ELECTRONICS LEAD</b> - Northeastern Electric Racing
+            <p class="exp-gap">Designed safety indicator PCB with gate logic.</p>
+        </li>
+        <li>
+            <sup>09.23-09.24</sup>
+            <b>ELECTRONICS MEMBER</b> - Northeastern Electric Racing
+            <p class="exp-gap">Assisted steering wheel and junction board PCB design, assembled BMS boards, designed waterproof enclosure for PCBs.</p>
+        </li>
+        <li>
+            <sup>10.19-07.23</sup>
+            <b>ROBOTICS TEAM CAPTAIN</b> - Red Hawk Robotics, FRC Team #2713
+            <p class="exp-gap">Led full robot design, organized members and tasking, attended world championship as a team for the first time.</p>
+        </li>
+    </ul>
+    <p>I also participated in AerospaceNU's Intro Propulsion team, designing and manufacturing a hybrid propulsion engine.</p>
+    <h3>LINKS</h3>
+    <hr>
+    <p>Includes a .pdf of my resume, plus other socials of mine. Feel free to contact me at 
         <b>brennan.cesar@gmail.com</b> or <b>cesar.b@northeastern.edu</b>.</p>
     <ul class="no-bullets">
-        <li> <a href="/assets/resume.pdf" target="_blank">Resume</a></li>
+        <li> <a href="assets/resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a></li>
         <li><a href="https://www.linkedin.com/in/brennan-cesar/" target ="_blank">LinkedIn</a></li>
         <li><a href="https://github.com/brennan-cesar" target ="_blank">GitHub</a></li>
         <li><a href="index.html">My Site</a></li>
     </ul>
+
+    <script>toggleTheme();</script>
 </body>

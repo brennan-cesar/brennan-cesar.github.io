@@ -3,10 +3,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Brennan Cesar">
-    <meta name="description" content="Brennan Cesar's website! Full of great stuff hopefully">
-    <meta name="keywords" content="Electrical Engineer, Robotics, Northeastern University">
+    <meta name="description" content="Projects page">
+    <meta name="keywords" content="Electrical Engineer, Robotics, Northeastern University, Electric Racing, FSAE, Consulting, PCB">
     <title>Projects</title>
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="theme.js"></script>
+    <script>theme();</script>
 </head>
 <body>
     <header>
@@ -14,6 +16,8 @@
     </header>
     <br>
     <h3 class="title"><a href="index.html">Return Home</a></h3>
+    <input type="checkbox" id="toggle-theme" hidden>
+    <label for="toggle-theme" style="display: flex; justify-content: center; align-items: center;">CLICK TO TOGGLE THEME</label>
     <br>
     <h2>UUV Signal Conditioner Board</h2>
     <hr>
@@ -24,4 +28,6 @@
     <h2>Propulsion Injector</h2>
     <hr>
     <p>Conceived, analyzed, and designed injector for hybrid rocket engine using solid fuel and liquid oxidizer in MATLAB and CAD. Manufactured and assembled custom injector, performing successful hotfires of hybrid and liquid fuel rockets.</p>
+
+    <script>toggleTheme();</script>
 </body>
