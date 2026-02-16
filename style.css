@@ -50,3 +50,34 @@ ul.no-bullets {
     margin: 0 auto;
     box-shadow: 0 4px 8px 0 #0000002d, 0 6px 20px 0 #0000002a;
 }
+.project-3img {
+    border-radius: 5%;
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 #0000002d, 0 6px 20px 0 #0000002a;
+}
+.project-2img {
+    float: left;
+    width: 45%;
+    padding: 5px;
+    
+}
+.project-1img {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px 0 #0000002d, 0 6px 20px 0 #0000002a;
+}
+.project-sch {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+.project-gif {
+    border-radius: 5%;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px 0 #0000002d, 0 6px 20px 0 #0000002a;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Brennan Cesar">
+    <meta name="description" content="Projects page">
+    <meta name="keywords" content="Electrical Engineer, Robotics, Northeastern University, Electric Racing, FSAE, Consulting, PCB">
+    <title>Projects</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="/theme.js"></script>
+    <script>theme();</script>
+</head>
+<body>
+    <header>
+        <h1 class="title">Projects</h1>
+    </header>
+    <h3 class="title"><a href="/">Return Home</a></h3>
+    <input type="checkbox" id="toggle-theme" hidden>
+    <label for="toggle-theme" style="display: flex; justify-content: center; align-items: center;">CLICK TO TOGGLE THEME</label>
+    <br>
+    <h2>UUV Signal Conditioner Board</h2>
+    <hr>
+    <p>Designed and assembled a custom lever shifter PCB for UUV propeller control. Completed schematic and layout design, using shielding and low noise techniques throughout the board to retain signal integrity. Extensively tested board in test bench setup with an oscilloscope to measure noise, obtaining excellent signal integrity and maximum output range. Successfully implemented in full system.</p>
+    <p>Below is an image of the unpopulated board with sections blocked out for design privacy.</p>
+    <img class="project-1img" src="/assets/signal_conditioner.png" alt="Signal conditioner PCB">
+    <h2>Tractive System Safety Indicator</h2>
+    <hr>
+    <p>Utilized gate logic to send fault signals to LED indicators, stating when vehicle is safe to approach. Designed and assembled PCB through entire bring-up process following Formula SAE safety standards.</p>
+    <p>Below is the full schematic design, as well images of the front & back layout design.</p>
+    <img class="project-sch" src="/assets/indicator_schematic.png" alt="Indicator PCB schematic">
+    <img class="project-2img" src="/assets/indicator_front.png" alt="Front of indicator PCB" style="width: 48.5%;">
+    <img class="project-2img" src="/assets/indicator_back.png" alt="Back of indicator PCB">
+    <br>
+    <h2>NER Board Improvements</h2>
+    <hr>
+    <p>Worked on multiple boards to complete schematic and layout design throughout my time at Northeastern Electric Racing. This includes the full design of the junction board, which required careful measurement for a full back-plate PCB to fit in the custom region, along with precise board-to-board connector alignments. I also made large contributions to the MPU (Main Processing Unit), MSB (Mechanical Sensor Board), and steering wheel PCB.</p>
+    <p>Below, in order, are the final designs of the MPU, steering wheel, and junction board.</p>
+    <img class="project-2img" src="/assets/mpu_front.png" alt="Front of MPU">
+    <img class="project-2img" src="/assets/mpu_back.png" alt="Back of MPU">
+    <img class="project-2img" src="/assets/steering_wheel_front.png" alt="Front of steering wheel PCB" style="width: 43.5%;">
+    <img class="project-2img" src="/assets/steering_wheel_back.png" alt="Back of steering wheel PCB">
+    <img class="project-2img" src="/assets/junction_front.png" alt="Front of junction board PCB">
+    <img class="project-2img" src="/assets/junction_back.png" alt="Back of junction board PCB">
+    <br>
+    <h2>Propulsion Injector</h2>
+    <hr>
+    <p>Conceived, analyzed, and designed injector for hybrid rocket engine using solid fuel and liquid oxidizer in MATLAB and CAD. Manufactured & assembled custom injector, and performed successful hotfires for both hybrid and liquid fuel rockets.</p>
+    <img class="project-gif" src="/assets/hotfire.gif" alt="GIF of successful hybrid engine hotfire">
+
+    <script>toggleTheme();</script>
+</body>
